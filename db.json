@@ -1,5 +1,5 @@
 {
-    "produtos": [
+    "hamburguer": [
       {
         "id": 1,
         "nome": "Hambúrguer",
@@ -27,22 +27,71 @@
         "descricao": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
         "preco": 14.5,
         "categoria_id": 1
+      }
+    ],
+
+    "hamburguer artesanal":[
+      {
+        "id":1,
+        "nome": "Austrália Burguer",
+        "descricao":"Pão Australiano, suculenta carne 100% bovina 100g, maionese da casa, cebola caramalizada, queijo cheddar e farofinha de bacon crocante.",
+        "preco":24.98,
+        "categoria_id":3
       },
       {
-        "id": 5,
+        "id":2,
+        "nome": "Cheese Bacon Burguer",
+        "descricao":"Pão brioche artesanal de longa fermentação, blend 100% bovina 100g, Bbq rústico da casa, cheddar inglês mais bacon em tiras.",
+        "preco":24.98,
+        "categoria_id":3
+      },
+      {
+        "id":3,
+        "nome": "T.T Burguer",
+        "descricao":"Pão Australiano, burguer de 160g, gorgonzola, tomate conflitado da casa, finalizado com mostarda e mel.",
+        "preco":32.98,
+        "categoria_id":3
+      },
+      {
+        "id":4,
+        "nome":"Cornélios Burguer",
+        "descricao":"Suculento burguer artesanal com blend bovino 160g, cheddar derretido, cebola caramelizada no shoyu, bacon crocante no pão artesanal australiano e molho insano.",
+        "preco":38.98,
+        "categoria_id":3
+      },
+      {
+        "id":5,
+        "nome": "Black Burguer",
+        "descricao":"Suculento hambúrguer Artesanal, blend de fraudinha 100% bovina 150g, queijo meia cura derretido, bacon crocante, salada de alface americana, cebola roxa e tomate, deliciosa maionese branca, pão negro Brioche.",
+        "preco":32.98,
+        "categoria_id":3
+      },
+      {
+        "id":6,
+        "nome": "Insano Cheddar",
+        "descricao":"Suculento burguer artesanal com blend fraudinha 180g, pão de brioche artesanal, mergulhado em uma deliciosa piscina de cheddar + farofinha de bacon.",
+        "preco":38.98,
+        "categoria_id":3
+      }
+    ],
+
+    "bebidas": [
+      {
+        "id": 1,
         "nome": "Coca cola 350ml",
         "descricao": "",
         "preco": 5.5,
         "categoria_id": 2
       },
       {
-        "id": 6,
+        "id": 2,
         "nome": "Coca cola 600ml",
         "descricao": "",
         "preco": 7.5,
         "categoria_id": 2
       }
     ],
+
     "categorias": [
       {
         "id": 1,
@@ -50,7 +99,11 @@
       },
       {
         "id": 2,
-        "nome": "Refrigerantes"
+        "nome": "Bebidas"
+      },
+      {
+        "id":3,
+        "nome": "Artesanais"
       }
     ]
   }

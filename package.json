@@ -1,0 +1,8 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafaellecardoso/Json-server.git",
+  "author": "rafaellecardoso <rafaelle3112@gmail.com>",
+  "license": "MIT"
+}

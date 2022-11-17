@@ -34,27 +34,27 @@
       {
         "id":1,
         "nome": "Austrália Burguer",
-        "descricao":"Pão Australiano, suculenta carne 100% bovina 100g, maionese da casa, cebola caramalizada, queijo cheddar e farofinha de bacon crocante.",
-        "preco":24.98,
+        "descricao":"Pão Australiano, carne 100% bovina 100g, maionese da casa, cebola caramalizada, queijo cheddar e farofa de bacon crocante.",
+        "preco":26.98,
         "categoria_id":3
       },
       {
         "id":2,
         "nome": "Cheese Bacon Burguer",
-        "descricao":"Pão brioche artesanal de longa fermentação, blend 100% bovina 100g, Bbq rústico da casa, cheddar inglês mais bacon em tiras.",
-        "preco":24.98,
+        "descricao":"Pão brioche artesanal de longa fermentação, blend 100% bovina 100g, Bbq rústico da casa, cheddar inglês e bacon em tiras.",
+        "preco":26.98,
         "categoria_id":3
       },
       {
         "id":3,
-        "nome": "T.T Burguer",
+        "nome": "Gorganzilla",
         "descricao":"Pão Australiano, burguer de 160g, gorgonzola, tomate conflitado da casa, finalizado com mostarda e mel.",
         "preco":32.98,
         "categoria_id":3
       },
       {
         "id":4,
-        "nome":"Cornélios Burguer",
+        "nome":"Smash Burguer",
         "descricao":"Suculento burguer artesanal com blend bovino 160g, cheddar derretido, cebola caramelizada no shoyu, bacon crocante no pão artesanal australiano e molho insano.",
         "preco":38.98,
         "categoria_id":3
@@ -68,10 +68,41 @@
       },
       {
         "id":6,
-        "nome": "Insano Cheddar",
+        "nome": "Cheddar burguer",
         "descricao":"Suculento burguer artesanal com blend fraudinha 180g, pão de brioche artesanal, mergulhado em uma deliciosa piscina de cheddar + farofinha de bacon.",
         "preco":38.98,
         "categoria_id":3
+      }
+    ],
+
+    "porcoes":[
+      {
+        "id":1,
+        "nome":"Batata pequena",
+        "descricao":"",
+        "preco":11.98,
+        "categoria_id":4
+      },
+      {
+        "id":2,
+        "nome":"Batata media",
+        "descricao":"",
+        "preco":13.98,
+        "categoria_id":4
+      },
+      {
+        "id":3,
+        "nome":"Batata grande",
+        "descricao":"",
+        "preco":16.98,
+        "categoria_id":4
+      },
+      {
+        "id":4,
+        "nome":"Batata com Bacon e cheddar",
+        "descricao":"porção de batata grande com bacon e cheddar derretido",
+        "preco":23.98,
+        "categoria_id":4
       }
     ],
 
@@ -86,6 +117,20 @@
       {
         "id": 2,
         "nome": "Coca cola 600ml",
+        "descricao": "",
+        "preco": 7.5,
+        "categoria_id": 2
+      },
+      {
+        "id": 3,
+        "nome": "Guaracamp",
+        "descricao": "",
+        "preco": 2.5,
+        "categoria_id": 2
+      },
+      {
+        "id": 4,
+        "nome": "Fanta laranja",
         "descricao": "",
         "preco": 7.5,
         "categoria_id": 2
@@ -104,6 +149,10 @@
       {
         "id":3,
         "nome": "Artesanais"
+      },
+      {
+        "id":4,
+        "nome": "porções"
       }
     ]
   }
